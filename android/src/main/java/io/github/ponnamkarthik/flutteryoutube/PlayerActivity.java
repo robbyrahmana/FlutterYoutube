@@ -99,6 +99,8 @@ public class PlayerActivity extends YouTubeBaseActivity implements YouTubePlayer
                 }
             });
 
+            player.setShowFullscreenButton(false);
+
             player.setPlayerStateChangeListener(new YouTubePlayer.PlayerStateChangeListener() {
                 @Override
                 public void onLoading() {
